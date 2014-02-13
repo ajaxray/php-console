@@ -13,7 +13,7 @@ define('APP_ROOT', __DIR__);
  */
 $dc = (include 'dependency.php');
 
-$app = new Application('Looptivity Aggregation', '0.1');
+$app = new Application('My Console Application', '0.1');
 $dc['app'] = $app;
 
 $app->add(new GreetCommand($dc));
