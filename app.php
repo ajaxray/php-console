@@ -4,17 +4,17 @@
 require 'vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
-use Assembla\Command\GreetCommand;
+use PHPConsole\Command\GreetCommand;
 
 define('APP_ROOT', __DIR__);
 
 /**
  * @var Pimple  Dependency Injection Container
  */
-$dic = (include 'deps.php');
+$dc = (include 'dependency.php');
 
 $app = new Application('Looptivity Aggregation', '0.1');
-$dic['app'] = $app;
+$dc['app'] = $app;
 
-$app->add(new GreetCommand);
+$app->add(new GreetCommand($dc));
 $app->run();

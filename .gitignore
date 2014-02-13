@@ -1,5 +1,6 @@
 vendor/*
 logs/*
+data/*.db3
 .idea/*
 config.yml
 !.gitkeep

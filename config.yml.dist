@@ -1,7 +1,9 @@
 database:
-  dbtype: mysql
-  dbname: aggregation
-  user: ~
-  pass: ~
-  host: localhost
-  # path: /file/name.db3 #for sqlite
+  # Connect to SQLite
+  path: /file/name.db3
+
+  ## Connect to MySql
+  # dbname: my-db-name
+  # user: root
+  # pass: not-gonna-tell-you
+  # host: localhost
