@@ -1,0 +1,7 @@
+database:
+  dbtype: mysql
+  dbname: aggregation
+  user: ~
+  pass: ~
+  host: localhost
+  # path: /file/name.db3 #for sqlite

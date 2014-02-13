@@ -1,0 +1,13 @@
+{
+    "require": {
+        "symfony/console": "2.4.*",
+        "symfony/yaml": "2.5.*@dev",
+        "analog/analog": "dev-master",
+        "pimple/pimple": "2.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Assembla\\Command\\": "Command/"
+        }
+    }
+}
